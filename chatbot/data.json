@@ -1,0 +1,409 @@
+{"intents":
+[           {"tag": "Appointment",
+              "patterns":["I want to make an appointment for tomorrow", "appointment", "book an appointment"],
+              "responses":["Sure! Do you know which doctor you would like to see? Or can I help you find one?"]
+            },
+            {
+                "tag": "hospital",
+                "patterns":["I'm not sure", "I don't know", "You can suggest"],
+                "responses":["No problem. Could you help me with a few details about yourself so I can find you the right doctor? Please complete the steps below; it will take just a minute. Do you exercise routinely?"]
+            },
+            {
+                "tag": "Yes/No",
+                "patterns":["Yes I do exercise", "No I do not  exercise", "Yes I do exercise routinely", "No I do not exercise routinely", "No"],
+                "responses":["Have you ever smoked?"]
+            },
+            {
+                "tag": "smoking",
+                "patterns":["Yes I do smoke", "Yes I smoke", "No I do not smoke"],
+                "responses":["Which area are you looking for the Hospital in? and You are looking for a doctor in which department? [Dermatology],[ENT],[Emergency Medicine],[General Surgery],[Internal Medicine],[Orthopedics],[Pediatrics],[Obstetrics and Gynecology] or any other"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Vishal Khand 4 Gomti Nagar and Gynaecology"],
+                "responses":["You can visit Pristyn Care- Lucknow"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Vishal Khand 1 Gomti Nagar and Ophthalmology ", "Vihal Khand 1 Gomti Nagar and eye care"],
+                "responses":["You can visit Pristyn Care- Gomti Nagar"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Nirala Nagar-Lucknow and Eye Care"],
+                "responses":["You can visit Garg OpthalMic"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Sitapur Road and Gynaecology"],
+                "responses":["You can visit Vaga Hospital"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Vineet Khand 1, Gomti Nagar, Lucknow and Gastroenterology and Hymenoplasty  and fissure "],
+                "responses":["You can visit Indus Lucknow"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Balaganj-Lucknow and Hysterectomy and Kidney stone"],
+                "responses":["You can visit Nova/Ford Hospital"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Madiyanva, Mutkkipur, Lucknow and fissure and Gastroenterology"],
+                "responses":["You can visit Altis Hospital-Lucknow"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Amar Shaheed Path, Sector 7, Gomti Nagar, Lucknow, and Hydrocele and Gastroenterology"],
+                "responses":["You can visit Tender Palm Hospital-Lucknow"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Fims College Road, Vibhav Khand-4, Gomti Nagar, Lucknow, and eye care"],
+                "responses":["You can visit Trinetra Advanced Eye Care Centre"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Vikrant Khand, Gomti Nagar,  Lucknow and fistula and Gastroenterology"],
+                "responses":["You can visit Asia Hospital Lucknow"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Amar Shaheed Path, Telibagh, Lucknow and fistula"],
+                "responses":["You can visit Scope Hospital Lucknow"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Near Ekana International Stadium Gomti Nagar Extension, Lucknow and Gynaecology"],
+                "responses":["You can visit Panacea Hospital-Lucknow"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Rana Pratap Marg, Opposite National College, Hazratgunj, Lucknow and IVF treatment"],
+                "responses":["You can visit Indira-IVF Lucknow"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Visheshwar Nagar, Sector B, Bargawan, Alambagh, Lucknow and Laser eye, Hernia, Sinus, Gynecomastia, Liposuction, Circumcision"],
+                "responses":["You can visit Apollomedics Super Speciality Hospital"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Viraj Khand, Near Hanuman Chauraha Gomti Nagar, Lucknow and health checkup, diabetes checkup, full body checkup, ammonia test, ICU and ventilator"],
+                "responses":["You can visit Sahara Hospital"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Tahseen Ganj, Lucknow and health checkup, opd consultation"],
+                "responses":["You can visit Star Hospital-Lucknow"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Kanpur Road, Near Krishna Cinema Alambagh, Lucknow and IVF treatment, opd consultation, icu facility"],
+                "responses":["You can visit Ajanta Hospital and IVF Centre (Alambagh)"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Vikas Khand- 1, Patrakarpuram Crossing Gomti Nagar, Lucknow and NICU, opd consultation, health checkup"],
+                "responses":["You can visit Ford Hospital"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Umrow Tower, Near Spencer Market, Indira Nagar, Lucknow, and eye care"],
+                "responses":["You can visit Contacare Eye Hospital (Lucknow)"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Kanpur Road, Near Krishna Nagar Kotwali, Lucknow and opd consultation and icu facility and health checkup, NICU"],
+                "responses":["You can visit LAL Hospital and Research Centre"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Viraj Khand Institutional Area Gomti Nagar, Lucknow and basic health checkup, opd consultation, heart check-up, child checkup"],
+                "responses":["You can visit Divine Heart and Multispecialty Hospital"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Vijay Khand, Near Lohiya Park Gomti Nagar, Lucknow and opd consultation and icu facility" ],
+                "responses":["You can visit Lucknow Metro Hospital"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Manas Vihar, Sarvodaya Nagar, Indira Nagar, Lucknow and Sinus Surgery, Tonsil Removal Surgery, Tympanoplasty"],
+                "responses":["You can visit Manas Ear Nose Throat Hospital & Head - Neck Cancer Clinic"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Nishatganj Mahanagar, Lucknow and opd consultation, icu facility"],
+                "responses":["You can visit Fatima Hospital"]
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Bangala Bazar, In Front Of AWHO Colony Abbas Nagar, Lucknow and opd consultation, icu facility"],
+                "responses":["You can visit Udyaan Healthcare Hospital"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Behind Krishna Nagar Police Station Krishna Nagar, Lucknow and opd consultation, icu facility, oxygen facility"],
+                "responses":["You can visit Remedy Hospital"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":[" Sardari Khera, Railway Colony, Alambagh, Lucknow and Gynaecology"],
+                "responses":["You can visit Ajanta Hospital"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Behind Krishna Nagar, Kotwali, Kanpur Road Sindhu Nagar, Lucknow and opd consultation "],
+                "responses":["You can visit Lucknow Hospital"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Sahara state Road Jankipuram, Lucknow and opd consultation, icu facility"],
+                "responses":["You can visit Icon Hospital"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Sitapur Road, Below Indian Overseas Bank, Oppo. Power House Ahibaranpur, Lucknow, and ventilator facility, icu facility"],
+                "responses":["You can visit New Lucknow Hospital and Trauma Centre"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Sector- 25 Crossing Indira Nagar, Lucknow and ICU facility and opd consultation "],
+                "responses":["You can visit CNS Hospital (Neuroscience and Trauma Centre)"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Vibhuti Khand Gomti Nagar, Lucknow and opd consultation and icu facility"],
+                "responses":["You can visit Ram Manohar Lohia Hospital"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Fawnbrake Avenue, Sarojini Naidu Marg Lucknow GPO, Lucknow and ICU facility and opd consultation "],
+                "responses":["You can visit Handa Hospital"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":[" Singar Nagar, Alambagh, Lucknow and Circumcision"],
+                "responses":["You can visit Avadh Hospital & Heart Center"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Kalyanpur, Lucknow and Circumcision"],
+                "responses":["You can visit Regency Super Speciality Hospital"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Shalimar Crossing Indira Nagar, Lucknow and ICU facility, general ward, private ward"],
+                "responses":["You can visit Shalimar Hospital and Trauma Centre"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Mandir Marg, Mahanagar Extn. , Lucknow and icu, nicu, x-ray, 2d-echo" ],
+                "responses":["You can visit Midland Healthcare and Research Center"] 
+            },
+            {
+                "tag": "doctors",
+                "patterns":["Vigyanpuri Colony, Shadab Colony, Mahanagar, Lucknow, and Gynaecology"],
+                "responses":["You can visit Dhanraj Hospital"] 
+            },
+            {
+             "tag": "greetings",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+             "responses":["hello", "hey!","what can I do for you?"]
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["cya", "see you later", "goodbye", "have a good day", "bye", "cao", "see ya"],
+             "responses":["have a nice day", "goodbye"]
+            },
+            {
+             "tag": "age",
+             "patterns": ["how old", "how old are you?", "what is your age", "how old are you"," age?"],
+             "responses":["I get reborn after every compilation", "my owners are average 20 years!"]
+            },
+            {
+                "tag": "suffer",
+                "patterns": ["I am not well ","I am suffering from a disease", "I am feeling unwell"],
+                "responses":["Please let me know about your symptoms"]
+               },
+            {
+             "tag": "name",
+             "patterns": ["what is your name", "what should I call you", "what's your name?"," who are you?","can you tell me your name"],
+             "responses":["you can call me Medbot!", "I  am Medbot!","I am Medbot your medical assistant"]
+            },
+            {
+             "tag":"common cold prevention",
+             "patterns":["What medicines can I buy to help me with my common cold?", "tell me some prevention method for common cold", "What should I eat or drink if I am suffering from the common cold?","How can I keep from getting a cold or the flu?"],
+             "responses":["medicines you can consume : Dextromethorphan, Decongestant, Diphenhydramine, Crocin Cold & Flu Max, preventions that you must follow: Wash your hands, Avoid touching your face, Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+            },
+            {
+             "tag":"fever prevention",
+             "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if I am suffering from fever?","How can I keep from getting a fever?"],
+             "responses":["medicines you can consume: acetaminophen , ibuprofen,aspirin, Crocin Cold & Flu Max, prevention that you must follow:Wash your hands, Cover your mouth when you cough and your nose when you sneeze, Clean frequently used surfaces, Avoid sharing cups, glasses, and eating utensils with other people., SUGGESTED FOODS AR :Garlic, Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+            },
+            {
+             "tag":"diabetes prevention",
+             "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+             "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+            },
+            {
+             "tag":"depression prevention",
+             "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+             "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+            },
+            {
+             "tag":"asthma prevention",
+             "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+             "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+            },
+            {
+             "tag":"Consultation",
+             "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+             "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+            },
+            {
+                "tag":"Chicken pox",
+                "patterns": ["itching, skin rash, fatigue, lethargy, high fever, headache, loss of appetite, mild fever, swelled lymph nodes, malaise, red spots over body","Chicken pox, skin_rash, fatigue, lethargy, high_fever, headache, loss_of_appetite, mild_fever, swelled_lymph_nodes, malaise, red_spots_over_body",""],
+                "responses":["It seem that you are suffering from Chicken Pox"]
+            },
+            {
+                "tag":"Dengue",
+                "patterns": ["skin_rash, chills, joint_pain, vomiting, fatigue, high_fever, headache, nausea, loss_of_appetite, pain_behind_the_eyes, back_pain, malaise, muscle_pain, red_spots_over_body"],
+                "responses":["It seem that you are suffering from Dengue"]
+            },
+            {
+                "tag":"Hepatitis A",
+                "patterns": ["joint_pain, vomiting, yellowish_skin, dark_urine, nausea, loss_of_appetite, abdominal_pain, diarrhoea, mild_fever, yellowing_of_eyes, muscle_pain"],
+                "responses":["It seem that you are suffering from Hepatitis A"]
+            },
+            {
+                "tag":"Hepatitis B",
+                "patterns": ["itching, fatigue, lethargy, yellowish_skin, dark_urine, loss_of_appetite, abdominal_pain, yellow_urine, yellowing_of_eyes, malaise, receiving_blood_transfusion, receiving_unsterile_injections"],
+                "responses":["It seem that you are suffering from Hepatitis B"]
+            },
+            {
+                "tag":"Hepatitis D",
+                "patterns": ["joint_pain, vomiting, fatigue, yellowish_skin, dark_urine, nausea, loss_of_appetite, abdominal_pain, yellowing_of_eyes"],
+                "responses":["It seem that you are suffering from Hepatitis D"]
+            },
+            {
+                "tag":"Hepatitis C",
+                "patterns": ["fatigue, yellowish_skin, nausea, loss_of_appetite, yellowing_of_eyes, family_history"],
+                "responses":["It seem that you are suffering from Hepatitis C"]
+            },
+            {
+                "tag":"Hepatitis E",
+                "patterns": ["joint_pain, vomiting, fatigue, high_fever, yellowish_skin, dark_urine, nausea, loss_of_appetite, abdominal_pain, yellowing_of_eyes, acute_liver_failure, coma, stomach_bleeding"],
+                "responses":["It seem that you are suffering from Hepatitis E"]
+            },
+            {
+                "tag":"Common Cold",
+                "patterns": ["continuous_sneezing, chills, fatigue, cough, high_fever, headache, swelled_lymph_nodes, malaise, phlegm, throat_irritation, redness_of_eyes, sinus_pressure, runny_nose, congestion, chest_pain, loss_of_smell, muscle_pain"],
+                "responses":["It seem that you are suffering from Common Cold"]
+            },
+            {
+                "tag":"Pneumonia",
+                "patterns": ["Pneumonia, chills, fatigue, cough, high_fever, breathlessness, sweating, malaise, phlegm, chest_pain, fast_heart_rate, rusty_sputum"],
+                "responses":["It seem that you are suffering from Pneumonia"]
+            },
+            {
+                "tag":"Allergy",
+                "patterns": ["continuous sneezing, shivering, chills, watering from eyes"],
+                "responses":["It seem that you are suffering from Allergy"]
+            },
+            {
+                "tag":"GERD",
+                "patterns": ["stomach_pain, acidity, ulcers_on_tongue, vomiting, cough, chest_pain"],
+                "responses":["It seem that you are suffering from GERD"]
+            },
+            {
+                "tag":"Bronchial Asthama",
+                "patterns": ["fatigue, cough, high_fever, breathlessness, family_history, mucoid_sputum"],
+                "responses":["It seem that you are suffering from Bronchial Asthama"]
+            },
+            {
+                "tag":"Jaundice",
+                "patterns": ["itching, vomiting, fatigue, weight loss, high fever, yellowish skin, dark urine, abdominal pain"],
+                "responses":["It seem that you are suffering from Jaundice"]
+            },
+            {
+                "tag":"Gastroenteritis",
+                "patterns": ["vomiting, sunken_eyes, dehydration, diarrhoea"],
+                "responses":["It seem that you are suffering from Gastroenteritis"]
+            },
+            {
+                
+                "tag":"Ebola Virus Disease",
+                "patterns": ["fever, fatigue, muscle pain, headache, soar throat, vomiting, rash, diarrhoea, blood in the stools, oozing from the gums"],
+                "responses":["It seem that you are suffering from Ebola Virus Disease"]
+            },
+            {
+                
+                "tag":"Influenza A",
+                "patterns": ["coughing, runny or stuffy nose, sneezing, sore throat, fever, headache, fatigue, bodyaches, chills"],
+                "responses":["It seem that you are suffering from Influenza A"]
+            },
+            {
+                
+                "tag":"swine flu",
+                "patterns": ["fever, chills, cough, sore throat, runny or stuffy nose, watery red eyes, bodyaches, headaches, fatigue, diarrhoea, nausea, vomiting"],
+                "responses":["It seem that you are suffering from swine flu"]
+            },
+            {
+                
+                "tag":"monkeypox",
+                "patterns": ["high fever, headache, muscle ache, backache, swollen glands, shivering, chills, joint pain, exhaustion, rash"],
+                "responses":["It seem that you are suffering from monkeypox"]
+            },
+            {
+                
+                "tag":"Measles",
+                "patterns": ["high fever, cough, runny nose, red eyes, watery eyes, conjunctivitis, red spots, small raised bumps"],
+                "responses":["It seem that you are suffering from Measles"]
+            },
+            {
+                
+                "tag":"Mumps",
+                "patterns": ["fever, headache, muscle aches, pain, not wanting to eat, tiredness, swelling on the sides of face, pain around the swelling, swelling of glands below the floor of the mouth"],
+                "responses":["It seem that you are suffering from Mumps"]
+            },
+            {
+                
+                "tag":"Stomach flu",
+                "patterns": ["nausea, vomiting, stomach cramps, pain, muscle aches, headache, fever, watery diarrhoea, non-bloody diarrhoea"],
+                "responses":["It seem that you are suffering from Stomach flu"]
+            },
+            {
+                
+                "tag":"Yellow Fever",
+                "patterns": ["sudden onset of fever, chills, severe headache, back pain, body aches, nausea, vomiting, fatigue, weakness"],
+                "responses":["It seem that you are suffering from Yellow Fever"]
+            },
+            {
+                
+                "tag":"Acute Bronchitis",
+                "patterns": ["coughing without mucus, coughing without mucus, sore throat, fatigue, feeling tired, mild headache, sore throat, mild body aches"],
+                "responses":["It seem that you are suffering from Acute Bronchitis"]
+            },
+            {
+                
+                "tag":"Pink Eye",
+                "patterns": ["pink eye, red eye, sweling of eyelids, itching in eyes, irritation in eyes, burning eyes, discharge of pus, tear production, urge to rub eyes"],
+                "responses":["It seem that you are suffering from Pink Eye"]
+            },
+            {
+                
+                "tag":"Covid 19",
+                "patterns": ["fever, chills, cough, fatigue, difficulty in breathing, muscle aches, body aches, shortness in breath, loss of taste and smell, sore throat, diarrhoea, vomiting, nausea, congestion, runny nose, "],
+                "responses":["It seem that you are suffering from Covid 19"]
+            },
+            {
+                
+                "tag":"Covid 19",
+                "patterns": ["fever, chills, cough, fatigue, difficulty in breathing, muscle aches, body aches, shortness in breath, loss of taste and smell, sore throat, diarrhoea, vomiting, nausea, congestion, runny nose, persistet pain, pressure in chest, inability to wake or stay awake, Pale, gray, or blue-colored skin, lips, or nail beds, depending on skin tone"],
+                "responses":["It seem that you are suffering from Covid 19 An RT-PCR test is recommended"]
+            }
+]}
+        
