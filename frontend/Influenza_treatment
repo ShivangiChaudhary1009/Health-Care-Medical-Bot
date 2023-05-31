@@ -1,0 +1,151 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Influenza Treatment</title>
+<link rel="stylesheet" href="aboutt.css"/>
+<link rel="shortcut icon" href="images/fav-icon.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+<style>
+.maindiv{
+	width:100%;
+	height:400px;
+	transform:translate:(-50%,-50%);
+	background-image:url(https://onlinemedicalclinics.com/wp-content/themes/onlinemedicalclinic/img/clinic/1.jpg);
+	background-size:100% 100%;
+	box-shadow:1px 2px 10px 5px white;
+	animation:slider 9s infinite linear;
+}
+.center{
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:50%;
+}
+
+</style>
+</head>
+<body>
+<div class="menu-bar">
+            <!-- <a class="navbar-brand" href="./index.html"> -->
+                <!-- <img src="logo.jpeg" class="img-responsive" alt=""/> -->
+            <!-- </a></div> -->
+            <ul>
+            <img src="C:\Users\hp\OneDrive\Desktop\WhatsApp Image 2023-01-09 at 9.39.07 PM.jpeg" class="img-responsive" style="width: 85px ; height: 80px">
+            <li><a href ="file:///C:/Users/hp/OneDrive/Desktop/front.html"><i class="fa fa-home" style="font-size: 20px;"></i>Home</a></li>
+            <li><a href ="file:///C:/Users/hp/OneDrive/Desktop/aboutt.html"><i class="fa fa-file"></i>About</a></li>
+            <li><a href ="file:///C:/Users/hp/OneDrive/Desktop/howitworks.html"><i class="fa fa-cogs" aria-hidden="true" style="font-size :20px;color: white;"></i> How it  Works</a></li>
+            <li><a href ="http://localhost/php/index.php"><i class="fa fa-pencil-square-o" aria-hidden="true" style="font-size :20px;color: white;"></i> Book an Appointment</a></li>
+            <li><a href ="#"><i class="fa fa-globe" style="font-size:20px;color:white;"></i>Services</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="file:///C:/Users/hp/OneDrive/Desktop/covid_19.html">Corona Virus</a></li>
+                        <li><a href="file:///C:/Users/hp/OneDrive/Desktop/monkey_pox.html">Monkey Pox</a></li>
+                        <li><a href="file:///C:/Users/hp/OneDrive/Desktop/bird_flu.html">Bird Flu</a></li>
+                        <li><a href="file:///C:/Users/hp/OneDrive/Desktop/influenza_treatment.html">FLU(Influenza)</a></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <!-- <li><a href ="#"><img src="https://img.icons8.com/color/512/google-blog-search.png " width="20%">  Blog</a></li> -->
+            <li><a href="#"><i class="fa fa-cloud" style="font-size:20px;color:white;"></i> Blogs</a></li>
+            </ul>
+            </div>
+<div class="section">
+<div class="aboutcontainer">
+<div class="title">
+<h1>INFLUENZA TREATMENT</h1>
+</div>
+<div class="content">
+<div class="article">
+
+<br>
+<h1> Quality Healthcare At Your Fingertips</h1>
+<br>
+
+<p>Wondering what will work for you? Or What is the best treatment for influenza? Or whether or not can you manage flu on your own? All these questions need clear answers so that you can alleviate symptoms like fever, aches, cough, and flu symptoms. </p>
+<br>
+<br>
+<h1>Treatment</h1>
+<p>If you are looking for instant relief, you can choose decongestant sprays. But, stop using one after around three days to avoid reviving the condition all over again. Some doctors suggest a saline spray that helps to clear out thick mucus in the nasal passages. You can use it for an extended period without falling into any side effects. 
+<ul style="list-style-type:disc;" >
+<br>
+
+
+<li>An occasional cough helps to clear out occasional phlegm. But, if your cough is persistent, then it is important that you start taking some cough medicine in combination with decongestants, antihistamines, analgesics, cough suppressants. </li>
+<li>Doctors usually suggest not to go for aspirin if you are under the age of 19. So, you can use acetaminophen or medicines like ibuprofen, or naproxen. But, consult your primary practitioner before taking any medications. So that you don’t overdose on such medications. </li>
+<li>Antiviral medications are helpful in decreasing the severity of flu symptoms. In some cases, they can act as medications that are helpful in decreasing the flu symptoms. Some of the commonly used medications include Xofluza, Tamiflu, or Relenza. </li>
+
+</ul></p>
+<br>
+<div class="button">
+<a href="#">Get Appointment</a>
+</div>
+</div>
+</div>
+<br><br><br><br>
+
+<div class="image-section">
+<img src="https://onlinemedicalclinics.com/wp-content/uploads/2019/09/Best-Treatment-For-Influenza-Decoded.png"  class="center">
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="image-section">
+<img src="data:image/jpeg;base64,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"  class="center">
+</div>
+</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>DISCLAIMER</h4>
+  	 			<ul>
+  	 				<li><a href="#">This information and advice</br>
+					published or made available</br>
+					through this website is not intended
+					to replace the </br>services of a physician</br>
+					or a health care professional acting
+					under a physician’s </br>supervision, nor
+					does it </br>fusion-columnsion-
+					columnstitute a doctor-</br>patient
+					relationship.</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>USEFUL LINKS</h4>
+  	 			<ul>
+  	 				<li><a href="file:///C:/Users/hp/OneDrive/Desktop/aboutt.html">About</a></li>
+  	 				<li><a href="file:///C:/Users/hp/OneDrive/Desktop/blog1.html">Blog</a></li>
+  	 				<li><a href="file:///C:/Users/hp/OneDrive/Desktop/howitworks.html">How It Works</a></li>
+  	 				<li><a href="file:///C:/Users/hp/OneDrive/Desktop/covid_19.html">Covid 19 : Coronavirus Prevention And Treatment</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>QUICK LINKS</h4>
+  	 			<ul>
+  	 				<li><a href="file:///C:/Users/hp/OneDrive/Desktop/acute_bronchitis.html">Acute Bronchitis Treatment</a></li>
+  	 				<li><a href="file:///C:/Users/hp/OneDrive/Desktop/eye_infections.html">Eye Infections Treatment</a></li>
+  	 				<li><a href="file:///C:/Users/hp/OneDrive/Desktop/pink_eye.html">Pink Eye Treatment</a></li>
+  	 				<li><a href="file:///C:/Users/hp/OneDrive/Desktop/influenza_treatment.html">Influenza Treatment</a></li>
+					
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>CONTACT US</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> 209305 Kanpur</a>
+  	 				<a href="#"><i class="fa fa-phone" aria-hidden="true"></i>(+91)6386220164</br></a>
+  	 				<a href="#"><i class="fa fa-clock" aria-hidden="true"></i>Mon-Sat:9am to 6pm  </a>
+  	 				<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>medicalchatbot@gmail.com</a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+
+</body>
+</html>
